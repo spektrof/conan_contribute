@@ -1,0 +1,10 @@
+diff --git a/test2/conan/config/recipes/pkg_i/conanfile.py b/test2/conan/config/recipes/pkg_i/conanfile.py
+index 1964893..3441ae9 100644
+--- a/test2/conan/config/recipes/pkg_i/conanfile.py
++++ b/test2/conan/config/recipes/pkg_i/conanfile.py
+@@ -6,3 +6,5 @@ class pkg_i(ConanFile):
+   settings = "os", "arch", "compiler", "build_type"
+   options = {"with_optimization" : [True, False]}
+   default_options = {"with_optimization" : False}
++
++  # recipe upgrade

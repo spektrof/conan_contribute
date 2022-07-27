@@ -1,0 +1,3 @@
+include(gcc82_settings)
+include(common_options)
+include(common_build_requires)

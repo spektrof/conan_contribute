@@ -1,0 +1,1 @@
+from .flattened_package_info import FlattenedPackageInfo as FlattenedConanPackageInfo

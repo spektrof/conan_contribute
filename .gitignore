@@ -1,0 +1,9 @@
+**/__pycache__
+
+**/conan-home
+**/conan-data
+
+**/_
+**/test_cases
+**/stdout
+**/stderr

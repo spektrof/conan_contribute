@@ -1,0 +1,3 @@
+[options]
+cmake:with_openssl=False
+b2:use_cxx_env=True

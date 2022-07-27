@@ -1,0 +1,13 @@
+diff --git a/test2/conan/config/recipes/pkg_a/conanfile.py b/test2/conan/config/recipes/pkg_a/conanfile.py
+index 9a95b74..9ca01c4 100755
+--- a/test2/conan/config/recipes/pkg_a/conanfile.py
++++ b/test2/conan/config/recipes/pkg_a/conanfile.py
+@@ -17,4 +17,5 @@ class pkg_a(ConanFile):
+     self.cpp_info.name = "pkg_a"
+     self.cpp_info.components["pkg_a_lib"].name = "pkg_a_lib"
+     self.cpp_info.components["pkg_a_lib"].libdirs = ["lib"]
+-    self.cpp_info.components["pkg_a_lib"].libs = ["lib"]
+\ No newline at end of file
++    self.cpp_info.components["pkg_a_lib"].libs = ["lib"]
++    self.cpp_info.components["pkg_a_lib"].defines = ["DEFINE"]
+\ No newline at end of file
