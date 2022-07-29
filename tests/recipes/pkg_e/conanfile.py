@@ -9,5 +9,4 @@ class pkg_e(ConanFile):
   )
 
   def package_info(self):
-    self.cpp_info.name = "pkg_e"
-    self.cpp_info.components["pkg_e_lib"].name = "pkg_e_lib"
+    self.cpp_info.libs = ["e"]
