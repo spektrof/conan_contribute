@@ -14,7 +14,4 @@ class pkg_a(ConanFile):
         self.options.fPIC = False
 
   def package_info(self):
-    self.cpp_info.name = "pkg_a"
-    self.cpp_info.components["pkg_a_lib"].name = "pkg_a_lib"
-    self.cpp_info.components["pkg_a_lib"].libdirs = ["lib"]
-    self.cpp_info.components["pkg_a_lib"].libs = ["lib"]
+    self.cpp_info.libs = ["a"]
